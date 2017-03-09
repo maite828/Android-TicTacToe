@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="first_human">Primero Humano</string>
+    <string name="turn_human">Juega Humano</string>
+    <string name="result_tie">Empatados</string>
+    <string name="human">Humano :</string>
+    <string name="ties_count">Empatados : </string>
+    <string name="ties">Empatados :</string>
+    <string name="tie">EMPATADOS!</string>
+    <string name="info">Información :</string>
+    <string name="human_count">Humano :</string>
+    <string name="machine_count">Máquina :</string>
+    <string name="un_jugador">Un Jugador :  </string>
+    <string name="dos_jugadores">Dos Jugadores :  </string>
+    <string name="error">Error, al introducir los jugadores</string>
+    <string name="turn_android">Turno Android</string>
+    <string name="result_human_gana">Tu Ganas!</string>
+    <string name="result_android_gana">Gana Android</string>
+    <string name="result_jugador_uno">Gana Jugador 1</string>
+    <string name="result_jugador_dos">Gana Jugador 2</string>
+    <string name="android">Android :  </string>
+    <!--menú-->
+    <string name="label_nuevo_Juego">Reset</string>
+    <string name="label_salir">Salir</string>
+    <!--Segundo Layout-->
+    <string name="saludo">BIENVENID@S</string>
+    <string name="namex">nombre X</string>
+    <string name="nameo">nombre O</string>
+    <string name="bJugar"> EMPEZAR PARTIDA </string>
+    <string name="one_j">Un Jugador</string>
+    <string name="two_j">Dos Jugadores</string>
+    <string name="nom_judador1">Maite</string>
+    <string name="nom_judador2">Mati</string>
+    <string name="result">Resultados</string>
+    <string name="reset">Reset</string>
+    <string name="bienvenida">Bienvenid@s</string>
+    <string name="salir">Salir</string>
+    <string name="junto_a">Gana :</string>
+    <string name="tpartida">tipo_partida</string>
+    <string name="label_nombre">Nombre :</string>
+    <string name="label_ganadas">Ganadas :</string>
+    <string name="label_total">Partidas :</string>
+    <string name="label_ficha">Ficha :</string>
+    <string name="check_uno">JUGARAS CONTRA LA MÁQUINA!</string>
+    <string name="check_dos">JUGARÁS CONTRA ANDROID!</string>
+</resources>

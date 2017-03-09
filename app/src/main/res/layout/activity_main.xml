@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/padre"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3.5"
+    android:background="@android:color/holo_blue_dark">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/nom_judador1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_orange_light" />
+
+        <ImageView
+            android:id="@+id/vs2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/vs" />
+
+        <TextView
+            android:id="@+id/nom_jugador2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="25dp"
+            android:textColor="@android:color/holo_orange_light" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <Button
+            android:id="@+id/celda1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/uno"/>
+
+        <Button
+            android:id="@+id/celda2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/dos"/>
+
+        <Button
+            android:id="@+id/celda3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/tres"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/celda4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/cuatro"/>
+
+        <Button
+            android:id="@+id/celda5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/cinco"/>
+
+        <Button
+            android:id="@+id/celda6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/seis"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/celda7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/siete"/>
+
+        <Button
+            android:id="@+id/celda8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/ocho"/>
+
+        <Button
+            android:id="@+id/celda9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="70dp"
+            android:text="@integer/nueve"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/info"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TableLayout
+        android:id="@+id/resultados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/fila4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/human"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/human"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/humanCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/accent_material_dark" />
+
+            <TextView
+                android:id="@+id/ties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ties"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/tiesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/accent_material_dark" />
+
+            <TextView
+                android:id="@+id/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/android"
+                android:textColor="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/androidCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/accent_material_dark" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="@string/reset"
+            android:background = "@drawable/btnredondo"
+            android:textColor="@android:color/holo_blue_dark" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="@string/result"
+            android:textColor="@android:color/holo_blue_dark"
+            android:background = "@drawable/btnredondo" />
+    </LinearLayout>
+
+</LinearLayout>

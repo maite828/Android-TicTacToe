@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="uno">1</integer>
+    <integer name="dos">2</integer>
+    <integer name="tres">3</integer>
+    <integer name="cuatro">4</integer>
+    <integer name="cinco">5</integer>
+    <integer name="seis">6</integer>
+    <integer name="siete">7</integer>
+    <integer name="ocho">8</integer>
+    <integer name="nueve">9</integer>
+</resources>
